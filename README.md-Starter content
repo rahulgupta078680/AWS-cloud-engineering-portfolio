@@ -1,0 +1,26 @@
+# AWS-cloud-engineering-portfolio# AWS Cloud Engineering Portfolio
+
+Hi, I'm Rahul Gupta, an IT Operations and Network Support Specialist transitioning into Cloud Engineering.
+
+I have hands-on enterprise experience in networking, firewalls, identity and access management, virtualization, backup, disaster recovery, and security operations.
+
+## Certifications
+- AWS Certified Solutions Architect – Associate
+- AWS Certified Cloud Practitioner
+- Google Cloud Associate Cloud Engineer
+- CompTIA Security+
+
+## Portfolio Projects
+
+| Project | Technologies | Status |
+|---|---|---|
+| Secure AWS VPC Networking | VPC, EC2, IAM, Routing | In progress |
+| Infrastructure as Code | Terraform, AWS | Planned |
+| Cloud Monitoring | CloudWatch, SNS, CloudTrail | Planned |
+| Backup and Disaster Recovery | AWS Backup, S3 | Planned |
+| CI/CD Deployment | GitHub Actions, AWS | Planned |
+
+## Engineering Focus
+Secure infrastructure, network troubleshooting, automation, observability, and operational reliability.
+
+Projects will include architecture diagrams, configuration details, validation evidence, troubleshooting notes, and lessons learned.
