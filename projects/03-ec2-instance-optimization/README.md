@@ -174,16 +174,7 @@ It supplies startup instructions or configuration data, often used for first-boo
 **Q8. What is the key distinction between this lab's guided exercise and DIY task?**  
 The guided exercise explored instance types, inspected a sample application and practiced lifecycle management. The DIY task specifically changed the configured type to `m4.large` while leaving the instance stopped.
 
-## 11. Screenshots to add (only if actually captured)
 
-- Existing EC2 instance details and original instance type
-- Comparison of `t3.large`, `c5.large` and `r5.large`
-- EC2 Instance Connect terminal and sample application (without sensitive values)
-- Instance stopped before type modification
-- Updated instance type showing `m4.large`
-- SimuLearn DIY validation success
-
-Redact credentials, account identifiers and other sensitive information. Do not fabricate screenshots or data.
 
 ---
 
