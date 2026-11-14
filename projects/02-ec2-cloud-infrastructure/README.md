@@ -179,7 +179,3 @@ No. Application health monitoring, traffic distribution, failover behavior, and 
 - Enable HTTPS and CloudWatch monitoring.
 - Recreate the infrastructure with infrastructure as code.
 - Record browser tests and actual failover behavior.
-
----
-
-**Project integrity:** This case study documents AWS SimuLearn guided training and a successfully validated DIY challenge, as reported by the learner. It does not claim an independently operated production environment, configured automatic failover, or browser test evidence.
