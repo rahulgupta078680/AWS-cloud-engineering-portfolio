@@ -13,9 +13,6 @@ Hands-on AWS SimuLearn case studies with clear business requirements, service se
 | 3 | Networking, Security & Data | To document |
 | 4 | Automation & Operations | To document |
 
-## Completed / documented case studies
-
-- [Lab 01 — Cloud Computing Essentials: Amazon S3 Static Website Hosting](Stage-1-Cloud-Foundations/Lab-01-Cloud-Computing-Essentials/README.md) — Guided configuration completed; DIY validation passed; end-to-end browser tests pending.
 
 ## Documentation standards
 
