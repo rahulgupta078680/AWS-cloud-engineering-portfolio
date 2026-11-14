@@ -103,14 +103,7 @@ The challenge required retaining N. Virginia (`us-east-1`) while placing the two
 
 The validator checked that two EC2 instances were located in separate Availability Zones. The exact second instance name, Availability Zone, and full configuration were not recorded in the supplied notes.
 
-### Evidence checklist
 
-- [x] Learner reported successful DIY validation.
-- [ ] Add screenshot of the two EC2 instances and their Availability Zones.
-- [ ] Add screenshot of the successful DIY validation message.
-- [ ] Add browser-based HTTP test results if separately performed.
-
-Do not add fabricated screenshots or claim unperformed tests.
 
 ## 7. Security Considerations
 
