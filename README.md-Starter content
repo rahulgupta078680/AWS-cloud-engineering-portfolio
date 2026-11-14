@@ -1,26 +1,108 @@
-# AWS-cloud-engineering-portfolio# AWS Cloud Engineering Portfolio
+# Rahul Gupta | AWS Cloud Engineering Portfolio
 
-Hi, I'm Rahul Gupta, an IT Operations and Network Support Specialist transitioning into Cloud Engineering.
+**IT Operations & Networking Professional | AWS Cloud Engineering | Cloud Architecture | Infrastructure & Security**
 
-I have hands-on enterprise experience in networking, firewalls, identity and access management, virtualization, backup, disaster recovery, and security operations.
+Welcome to my AWS Cloud Engineering Portfolio.
 
-## Certifications
-- AWS Certified Solutions Architect – Associate
-- AWS Certified Cloud Practitioner
-- Google Cloud Associate Cloud Engineer
-- CompTIA Security+
+I bring a background in enterprise IT operations, networking, infrastructure support, and troubleshooting. I am expanding this experience into AWS cloud engineering through hands-on implementations, architecture exercises, and independent cloud projects.
 
-## Portfolio Projects
+This portfolio documents my technical journey, focusing on practical engineering skills, business requirements, security, reliability, automation, and operational problem-solving.
 
-| Project | Technologies | Status |
+---
+
+## Featured AWS Cloud Projects
+
+### 01 | Hosting a Static Website on Amazon S3
+
+**Technologies:** Amazon S3, Static Website Hosting, Bucket Policies, AWS Cloud Architecture
+
+**Business challenge:** A city relied on on-premises servers to host a public beach wave-conditions website. Frequent server failures affected availability, while provisioning new infrastructure took months.
+
+**Solution:** Configured Amazon S3 static website hosting to support a managed hosting approach without maintaining dedicated web servers.
+
+**Implementation highlights:**
+- Reviewed website objects in an S3 bucket.
+- Configured static website hosting with index and error documents.
+- Examined public-read permissions and S3 Block Public Access settings.
+- Completed an independent S3 object-renaming challenge.
+- Successfully passed the AWS SimuLearn DIY validation.
+- Documented security considerations, operational limitations, and potential improvements.
+
+**Validation:** DIY challenge passed. End-to-end browser testing has not yet been recorded.
+
+**Project type:** AWS SimuLearn guided implementation with validated DIY challenge.
+
+[View Project Documentation](Stage-1-Cloud-Foundations/Lab-01-Cloud-Computing-Essentials/README.md)
+
+---
+
+## Cloud Engineering Learning Roadmap
+
+My learning roadmap includes 27 AWS SimuLearn Solutions Architect exercises organized into four technical stages.
+
+| Stage | Technical Focus | Progress |
 |---|---|---|
-| Secure AWS VPC Networking | VPC, EC2, IAM, Routing | In progress |
-| Infrastructure as Code | Terraform, AWS | Planned |
-| Cloud Monitoring | CloudWatch, SNS, CloudTrail | Planned |
-| Backup and Disaster Recovery | AWS Backup, S3 | Planned |
-| CI/CD Deployment | GitHub Actions, AWS | Planned |
+| 1 | Cloud Foundations | 1 of 8 DIY challenges completed |
+| 2 | Infrastructure & Architecture | Not started |
+| 3 | Networking, Security & Data | Not started |
+| 4 | Automation & Operations | Not started |
 
-## Engineering Focus
-Secure infrastructure, network troubleshooting, automation, observability, and operational reliability.
+### Stage 1 — Cloud Foundations
+Cloud computing, core AWS services, networking fundamentals, storage, databases, and cloud economics.
 
-Projects will include architecture diagrams, configuration details, validation evidence, troubleshooting notes, and lessons learned.
+### Stage 2 — Infrastructure & Architecture
+Highly available applications, scaling, serverless architecture, VPC connectivity, and API services.
+
+### Stage 3 — Networking, Security & Data
+DNS, content delivery, security, data ingestion, network traffic analysis, and backup strategies.
+
+### Stage 4 — Automation & Operations
+Infrastructure as Code, monitoring, governance, decoupled architectures, and containers.
+
+---
+
+## Technical Focus Areas
+
+**Cloud Infrastructure:** AWS compute, storage, networking, and managed services.
+
+**Networking & Security:** VPC architecture, connectivity, access controls, network troubleshooting, and security best practices.
+
+**Reliability & Operations:** Availability, monitoring, backup, recovery, and operational troubleshooting.
+
+**Infrastructure Automation:** CloudFormation, infrastructure provisioning, and repeatable deployment practices.
+
+**Architecture & Design:** Translating business requirements into practical cloud solutions with security, reliability, and cost considerations.
+
+---
+
+## Engineering Documentation Approach
+
+Each project aims to demonstrate:
+
+1. Business problem and technical requirements.
+2. Architecture and AWS service selection.
+3. Implementation and configuration.
+4. Testing and validation evidence.
+5. Security, reliability, and cost considerations.
+6. Troubleshooting and operational lessons.
+7. Potential improvements and independent extensions.
+
+Guided training, independently completed exercises, and independently designed projects are identified accurately. Proposed improvements are distinguished from implemented solutions.
+
+---
+
+## Professional Development Goals
+
+- Strengthen practical AWS cloud engineering and architecture skills.
+- Apply enterprise infrastructure and networking experience to cloud environments.
+- Build independently deployed projects demonstrating operational ownership.
+- Develop deeper expertise in infrastructure automation, security, and reliability.
+- Demonstrate technical decision-making through clear documentation and validated implementations.
+
+---
+
+## Portfolio Philosophy
+
+**Understand the problem. Design the solution. Implement carefully. Validate the results. Document the learning.**
+
+This portfolio is a continuously evolving record of practical cloud engineering development.
