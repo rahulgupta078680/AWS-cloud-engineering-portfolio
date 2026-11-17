@@ -199,19 +199,5 @@ No. It applies only to modeled compute instance-hours under the stated traffic p
 **Q8. Why generate a new share link after editing an estimate?**  
 The updated estimate must be shared explicitly so reviewers and validation tools see the revised configuration rather than an earlier saved version.
 
-## 11. Suggested screenshots and evidence
 
-Add screenshots from your own completed exercise if available:
 
-- `screenshots/01-workload-configuration.png` — daily spike traffic settings
-- `screenshots/02-original-t3-medium.png` — guided instance selection
-- `screenshots/03-storage-and-transfer.png` — EBS and data transfer inputs
-- `screenshots/04-final-t2-micro.png` — right-sized instance selection
-- `screenshots/05-updated-estimate-summary.png` — actual post-DIY calculator totals
-- `screenshots/06-diy-validation-pass.png` — SimuLearn validation result
-
-No screenshots or pricing amounts have been fabricated for this repository artifact.
-
----
-
-**Portfolio integrity note:** This write-up describes a guided AWS SimuLearn cost-estimation exercise and a learner-reported successfully validated DIY instance-type change. It does not claim an actual AWS migration, deployed scaling architecture, measured production performance, or unrecorded savings.
