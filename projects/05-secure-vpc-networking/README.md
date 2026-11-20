@@ -167,4 +167,3 @@ Security groups are stateful resource-level controls; NACLs are stateless subnet
 Private databases, tightly scoped inbound and outbound rules, HTTPS for external traffic, monitoring, change control, and application/database availability planning.
 
 
-rm deployment, or tests for which evidence was not supplied.
