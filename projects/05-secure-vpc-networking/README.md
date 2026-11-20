@@ -166,33 +166,5 @@ Security groups are stateful resource-level controls; NACLs are stateless subnet
 **Q7. What would improve the production design?**  
 Private databases, tightly scoped inbound and outbound rules, HTTPS for external traffic, monitoring, change control, and application/database availability planning.
 
-## 9. Independent extension — Terraform (not implemented in the training lab)
 
-A future Infrastructure-as-Code version can declare the database rule using `aws_vpc_security_group_ingress_rule` and explicitly reference the web server security group:
-
-```hcl
-resource "aws_vpc_security_group_ingress_rule" "mysql_from_web" {
-  security_group_id            = var.db_security_group_id
-  referenced_security_group_id = var.web_security_group_id
-  ip_protocol                  = "tcp"
-  from_port                    = 3306
-  to_port                      = 3306
-  description                  = "Allow MySQL only from the web tier"
-}
-```
-
-**Do not apply this unreviewed to the existing training environment.** Inspect whether the rule already exists and import/reconcile existing infrastructure to avoid duplicate-resource or state conflicts.
-
-## 10. Evidence to add
-
-- Screenshot: `RouteTable2` default route targeting the internet gateway.
-- Screenshot: `WebServerSecurityGroup` inbound HTTP and outbound configuration.
-- Screenshot: `DbServerSecurityGroup` inbound `MYSQL/Aurora` rule sourced from the web security group.
-- Screenshot: connectivity diagram after the fix.
-- Screenshot: successful DIY validation.
-
-Do not publish passwords, access keys, sensitive account details, or unredacted private information.
-
----
-
-**Integrity statement:** This project documents an AWS SimuLearn guided exercise and a learner-reported successful DIY validation. It does not claim production banking infrastructure, independent Terraform deployment, or tests for which evidence was not supplied.
+rm deployment, or tests for which evidence was not supplied.
